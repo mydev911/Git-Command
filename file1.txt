@@ -1,2 +1,4 @@
 THIS IS MY 
 swapon
+alow
+
