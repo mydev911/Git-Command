@@ -59,3 +59,10 @@ http://localhost:3000
 ```
 curl http://localhost:3001/health
 ```
+### Get token from web Console
+```
+copy(localStorage.getItem("pindoc_id_token"))
+```
+```
+console.log(localStorage.getItem("pindoc_id_token"))
+```
