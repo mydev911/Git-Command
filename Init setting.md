@@ -28,3 +28,34 @@ NEXT_PUBLIC_COGNITO_REDIRECT_URI=http://localhost:3000/auth/callback
 NEXT_PUBLIC_COGNITO_LOGOUT_URI=http://localhost:3000/
 NEXT_PUBLIC_COGNITO_SCOPES=openid+email+profile
 ```
+### How to start database if when colse
+```
+docker --version
+docker compose version
+```
+```
+cd ~/projects/pindoc
+docker compose up -d
+```
+```
+docker compose ps
+```
+### Start API again
+```
+cd ~/projects/pindoc/apps/api
+pnpm dev
+```
+```
+curl http://localhost:3001/health
+```
+```
+cd ~/projects/pindoc/apps/web
+pnpm dev
+```
+```
+http://localhost:3000
+```
+
+```
+curl http://localhost:3001/health
+```
