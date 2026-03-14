@@ -74,3 +74,8 @@ grep COGNITO_APP_CLIENT_ID .env
 cd ~/projects/pindoc/apps/web
 grep NEXT_PUBLIC_COGNITO_CLIENT_ID .env.local
 ```
+### Cursor 
+```
+Allowlist = add pnpm prisma to allowlist
+Run = this time only
+```
