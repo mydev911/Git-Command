@@ -66,3 +66,11 @@ copy(localStorage.getItem("pindoc_id_token"))
 ```
 console.log(localStorage.getItem("pindoc_id_token"))
 ```
+```
+cd ~/projects/pindoc/apps/api
+grep COGNITO_APP_CLIENT_ID .env
+````
+```
+cd ~/projects/pindoc/apps/web
+grep NEXT_PUBLIC_COGNITO_CLIENT_ID .env.local
+```
