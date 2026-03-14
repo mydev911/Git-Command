@@ -79,3 +79,8 @@ grep NEXT_PUBLIC_COGNITO_CLIENT_ID .env.local
 Allowlist = add pnpm prisma to allowlist
 Run = this time only
 ```
+### First verify database state
+```
+cd ~/projects/pindoc/apps/api
+pnpm prisma studio
+```
