@@ -84,3 +84,8 @@ Run = this time only
 cd ~/projects/pindoc/apps/api
 pnpm prisma studio
 ```
+### check Upload status on wsl
+```
+cd ~/projects/pindoc/apps/api
+pnpm exec ts-node src/workers/runExtractionWorker.ts
+```
