@@ -89,3 +89,7 @@ pnpm prisma studio
 cd ~/projects/pindoc/apps/api
 pnpm exec ts-node src/workers/runExtractionWorker.ts
 ```
+### Extraction Worker
+```
+pnpm exec ts-node src/scripts/debugDocumentPipeline.ts ConEdsion.pdf
+```
